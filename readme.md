@@ -1,7 +1,7 @@
-Example Marionette apps using multiple dependency tools.
-================
+Example marionette apps using multiple dependency tools.
+-----
 
-## Currently Implements
+## Currently Implemented
   * browserify
 
 ## Todo
