@@ -1,13 +1,12 @@
 {
   "name": "marionette-browserify",
   "scripts": {
-    "build": "./node_modules/browserify/bin/cmd.js app.js -o build.js"
+    "build": "./node_modules/browserify/bin/cmd.js marionette_shim.js app.js -o build.js"
   },
   "dependencies": {
-    "backbone.marionette": "~1.6.3",
-    "backbone": "~1.1.2",
     "underscore": "~1.6.0",
-    "jquery": "~2.1.0"
+    "jquery": "^2.1.0",
+    "backbone.marionette": "git://github.com/bonobos/backbone.marionette#fix/remove-jquery-dep"
   },
   "devDependencies": {
     "browserify": "~3.31.2"
