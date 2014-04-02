@@ -6,7 +6,7 @@
   "dependencies": {
     "underscore": "~1.6.0",
     "jquery": "^2.1.0",
-    "backbone.marionette": "git://github.com/bonobos/backbone.marionette#fix/remove-jquery-dep"
+    "backbone.marionette": "^1.7.4"
   },
   "devDependencies": {
     "browserify": "~3.31.2"
