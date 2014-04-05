@@ -4,7 +4,7 @@
     "build": "./node_modules/browserify/bin/cmd.js marionette_shim.js app.js -o build.js"
   },
   "dependencies": {
-    "underscore": "~1.6.0",
+    "underscore": "1.6.0",
     "jquery": "^2.1.0",
     "backbone.marionette": "^1.7.4"
   },
