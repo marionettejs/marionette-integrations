@@ -1,7 +1,8 @@
-_ = require('underscore')
-Marionette = require('backbone.marionette')
+define(function(require) {
+    var _ = require('underscore'),
+        Marionette = require('marionette');
 
-module.exports = Marionette.ItemView.extend({
-  template: _.template("<h2>i am the cat man</h2>")
+    return Marionette.ItemView.extend({
+        template: _.template("<h2>i am the cat man</h2>")      
+    });
 });
-
