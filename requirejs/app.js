@@ -1,8 +1,10 @@
-CatView   = require("./views/cat_view");
+define(function(require) {
+    var CatView = require("views/cat_view");
 
-var catView = new CatView({
-  el: "body"
+    var catView = new CatView({
+      el: "body"
+    });
+
+    catView.render();
 });
-
-catView.render();
 
