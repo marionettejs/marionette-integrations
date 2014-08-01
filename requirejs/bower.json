@@ -1,6 +1,7 @@
 {
   "name": "marionette-requirejs",
   "dependencies": {
-    "marionette": "~1.8.5"
+    "marionette": "^2.0.0",
+    "requirejs": "~2.1.14"
   }
 }

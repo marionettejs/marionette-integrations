@@ -7,7 +7,7 @@ require.config({
         backbone: 'bower_components/backbone/backbone',
         'backbone.wreqr': 'bower_components/backbone.wreqr/lib/backbone.wreqr',
         'backbone.babysitter': 'bower_components/backbone.babysitter/lib/backbone.babysitter',
-        marionette: 'bower_components/marionette/lib/core/amd/backbone.marionette'
+        marionette: 'bower_components/marionette/lib/core/backbone.marionette'
     }
 });
 
