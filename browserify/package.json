@@ -1,7 +1,7 @@
 {
   "name": "marionette-browserify",
   "scripts": {
-    "build": "./node_modules/browserify/bin/cmd.js marionette_shim.js app.js -o build.js"
+    "build": "browserify marionette_shim.js app.js -o build.js"
   },
   "dependencies": {
     "underscore": "1.6.0",
