@@ -2,14 +2,10 @@
 
 This is a modern JS skeleton with MarionetteJS for [Webpack](https://webpack.github.io/).
 
-## Installation
-
-Clone this repo manually `git clone https://github.com/denar90/webpack-with-marionettejs`
-
 ## Getting started
 
 * Install:
-    * Inside cloned repo run: `npm install`
+    * Inside this folder run: `npm install`
 * Run:
     * `npm start` — starts project
     * `npm run build` - builds you project

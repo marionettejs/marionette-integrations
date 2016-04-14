@@ -8,8 +8,8 @@
     "url": ""
   },
   "scripts": {
-    "start": "brunch watch --server",
-    "prod": "brunch build --production"
+    "start": "./node_modules/.bin/brunch watch --server",
+    "prod": "./node_modules/.bin/brunch build --production"
   },
   "dependencies": {
     "jquery": "~1.12.2",
