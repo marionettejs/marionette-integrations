@@ -1,15 +1,28 @@
 {
-  "name": "marionette-browserify",
+  "name": "your-app",
+  "description": "Description",
+  "author": "Your Name",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "scripts": {
-    "build": "browserify marionette_shim.js app.js -o build.js"
+    "start": "make start",
+    "build": "make build"
   },
   "dependencies": {
-    "underscore": "1.6.0",
-    "jquery": "^2.1.0",
-    "backbone.marionette": "^2.0.0",
-    "backbone": "1.1.2"
+    "backbone": "~1.2.3",
+    "backbone.marionette": "~2.4.5",
+    "jquery": "~1.12.2",
+    "underscore": "^1.7.0"
   },
   "devDependencies": {
-    "browserify": "~3.31.2"
+    "babel-preset-es2015": "^6.6.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "http-server": "^0.9.0",
+    "jstify": "^0.14.0",
+    "node-underscorify": "0.0.14"
   }
 }
