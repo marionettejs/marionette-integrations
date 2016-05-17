@@ -42,7 +42,8 @@ module.exports = {
       to: './index.html'
     }]),
     new webpack.ProvidePlugin({
-      $: 'jquery'
+      $: 'jquery',
+      _: 'underscore'
     })
   ],
   resolve: {
