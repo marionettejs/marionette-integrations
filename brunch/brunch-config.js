@@ -14,9 +14,7 @@ module.exports = {
   },
   npm: {
     globals: {
-      $: 'jquery',
-      Marionette: 'backbone.marionette',
-      Backbone: 'backbone.marionette/node_modules/backbone'
+      $: 'jquery'
     }
   },
   plugins: {

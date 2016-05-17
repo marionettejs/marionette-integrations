@@ -1,3 +1,4 @@
+import {Marionette} from '../../vendor/vendor';
 import ItemView from './ItemView';
 
 export default Marionette.Application.extend({
