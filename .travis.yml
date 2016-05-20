@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "5.3"
+env:
+  - DIR=browserify
+  - DIR=brunch
+  - DIR=webpack
+script:
+  - ./travis-runner.sh

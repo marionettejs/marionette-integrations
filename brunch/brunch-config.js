@@ -12,6 +12,11 @@ module.exports = {
       joinTo: {'app.js': /^app\/templates/}
     }
   },
+  npm: {
+    globals: {
+      $: 'jquery'
+    }
+  },
   plugins: {
     babel: {presets: ['es2015']}
   }

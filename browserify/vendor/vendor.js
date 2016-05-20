@@ -3,6 +3,5 @@ import Backbone from 'backbone';
 import $ from 'jQuery';
 import Marionette from 'backbone.marionette';
 Backbone.$ = $;
-window.Backbone = Backbone;
-window.Marionette = Marionette;
+window.$ = $;
 export {_, $, Backbone, Marionette};

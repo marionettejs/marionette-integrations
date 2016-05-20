@@ -1,4 +1,4 @@
-import {_, $, Backbone, Marionette} from '../vendor/vendor';
+import {$} from '../vendor/vendor';
 import App from './components/App';
 
 document.addEventListener('DOMContentLoaded', () => {

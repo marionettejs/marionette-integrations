@@ -43,9 +43,7 @@ module.exports = {
     }]),
     new webpack.ProvidePlugin({
       $: 'jquery',
-      _: 'underscore',
-      Backbone: 'backbone',
-      Marionette: 'backbone.marionette'
+      _: 'underscore'
     })
   ],
   resolve: {
