@@ -1,6 +1,6 @@
-# Cypress + MarionetteJS
+# CasperJS + MarionetteJS
 
-This is a [Cypress](https://www.cypress.io/) test example for Browserify + MarionetteJS skeleton.
+This is a [CasperJS](http://casperjs.org/) test example for Browserify + MarionetteJS skeleton.
 
 ## Getting started
 
@@ -9,7 +9,7 @@ This is a [Cypress](https://www.cypress.io/) test example for Browserify + Mario
 * Run:
     * `npm start` — starts project
     * `npm run build` - builds you project
-    * `npm run test` - test you project
+    * `npm run test` - tests you project
 * Learn:
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` and `app/styles/` to `public/`.
