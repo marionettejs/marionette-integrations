@@ -8,8 +8,9 @@
     "url": ""
   },
   "scripts": {
-    "start": "./node_modules/.bin/brunch watch --server",
-    "prod": "./node_modules/.bin/brunch build --production"
+    "start": "brunch watch --server",
+    "prod": "brunch build --production",
+    "test": "brunch b --env testing"
   },
   "dependencies": {
     "jquery": "~1.12.2",
@@ -22,7 +23,10 @@
     "brunch": "~2.5.0",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
+    "jasmine": "^2.4.1",
     "javascript-brunch": "^2.0.0",
+    "karma-brunch": "~1.0.0",
+    "phantomjs-prebuilt": "^2.1.7",
     "uglify-js-brunch": "^2.0.0",
     "underscore-brunch": "~1.4.0"
   }

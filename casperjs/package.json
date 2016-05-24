@@ -1,0 +1,32 @@
+{
+  "name": "your-app",
+  "description": "Description",
+  "author": "Your Name",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "make start",
+    "build": "make build",
+    "test": "make start && casperjs test test/example_spec.js"
+  },
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "backbone.marionette": "~2.4.5",
+    "jquery": "~1.12.2",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-register": "^6.9.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "casperjs": "^1.1.1",
+    "http-server": "^0.9.0",
+    "jstify": "^0.14.0",
+    "node-underscorify": "0.0.14",
+    "phantomjs": "^2.1.7"
+  }
+}
