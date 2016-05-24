@@ -15,8 +15,6 @@ server:
 
 start: build server
 
-test: start && $(MODULESDIR)/casperjs test test/example_spec.js
-
 clean:
 	@rm -rf public
 
