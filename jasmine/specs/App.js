@@ -4,15 +4,15 @@ import App from 'components/App';
 let app;
 
 describe('Application', () => {
-  before(() => {
+  beforeAll(() => {
     app = new App();
   });
 
   it('should starts successfully', () => {
-    expect(app).to.be.instanceof(Marionette.Application);
+    expect(app instanceof Marionette.Application).toBeTruthy();
   });
   
   it('should has app region', () => {
-    expect(app.getRegion('app')).to.be.not.undefined;
+    expect(app.getRegion('app')).not.toEqual(undefined);
   });
 });

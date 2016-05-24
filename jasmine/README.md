@@ -1,6 +1,6 @@
-# MarionetteJS + Brunch + Karma + Mocha + Chai
+# MarionetteJS + Brunch + Karma + Jasmine
 
-This is a [Mocha](https://mochajs.org/) test example for Brunch + MarionetteJS skeleton.
+This is a [Jasmine](http://jasmine.github.io/2.4/introduction.html) test example for Brunch + MarionetteJS skeleton.
 
 ## Getting started
 
