@@ -3,3 +3,5 @@ node_modules
 .idea/
 build.js
 bower_components
+cypress/cypress/fixtures
+cypress/cypress/support
