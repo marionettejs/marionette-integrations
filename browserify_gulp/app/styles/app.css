@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, system, sans-serif;
+}
+
+#content {
+  width: 480px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  font-size: 10em;
+  background-image: url(//browserify.org/images/wizard_hat_blue.png);
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+a {
+  color: #3C6991;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+a:hover {
+  color: #e6b35a;
+  border-bottom: 1px solid #e6b35a;
+}
