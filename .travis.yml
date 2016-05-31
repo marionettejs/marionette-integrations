@@ -8,4 +8,4 @@ env:
   - DIR=brunch
   - DIR=webpack
 script:
-  - ./travis-runner.sh
+  - bash ./travis-runner.sh
