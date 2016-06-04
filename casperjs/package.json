@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "make start",
-    "build": "make build",
+    "build": "eslint app && make build",
     "test": "make start && casperjs test test/example_spec.js"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
     "casperjs": "^1.1.1",
+    "eslint": "^2.11.1",
     "http-server": "^0.9.0",
     "jstify": "^0.14.0",
     "node-underscorify": "0.0.14",

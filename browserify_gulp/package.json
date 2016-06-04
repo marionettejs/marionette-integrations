@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "gulp start",
-    "build": "gulp build"
+    "build": "eslint app && gulp build",
+    "test": "echo test"
   },
   "dependencies": {
     "backbone": "~1.2.3",
@@ -22,6 +23,7 @@
     "babelify": "^7.3.0",
     "browser-sync": "^2.12.8",
     "browserify": "^13.0.1",
+    "eslint": "^2.11.1",
     "gulp": "^3.9.1",
     "jstify": "^0.14.0",
     "vinyl-buffer": "^1.0.0",

@@ -7,5 +7,9 @@ env:
   - DIR=browserify_grunt
   - DIR=brunch
   - DIR=webpack
+  - DIR=casperjs
+  - DIR=cypress
+  - DIR=mocha
+  - DIR=jasmine
 script:
   - ./travis-runner.sh

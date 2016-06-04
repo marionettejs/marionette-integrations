@@ -1,6 +1,6 @@
-# Browserify + MarionetteJS + Babel/ES6
+# Browserify + Grunt + MarionetteJS + Babel/ES6
 
-This is a modern JS skeleton with MarionetteJS for [Browserify](http://browserify.org/).
+This is a modern JS skeleton with MarionetteJS for [Browserify](http://browserify.org/) + [Grunt](http://gruntjs.com/).
 
 ## Getting started
 
