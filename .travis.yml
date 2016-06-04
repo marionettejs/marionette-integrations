@@ -8,7 +8,6 @@ env:
   - DIR=brunch
   - DIR=webpack
   - DIR=casperjs
-  - DIR=cypress
   - DIR=mocha
   - DIR=jasmine
 script:
