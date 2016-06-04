@@ -12,4 +12,4 @@ env:
   - DIR=mocha
   - DIR=jasmine
 script:
-  - ./travis-runner.sh
+  - bash ./travis-runner.sh
