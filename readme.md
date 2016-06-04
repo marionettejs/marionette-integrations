@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/marionettejs/marionette-integrations.svg?branch=master)](https://travis-ci.org/marionettejs/marionette-integrations)
+
 Example marionette apps using multiple dependency tools.
 -----
 
