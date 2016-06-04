@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-cd $DIR && npm i && npm run build
+cd $DIR && npm i && npm run build && npm run test
