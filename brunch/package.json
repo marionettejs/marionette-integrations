@@ -8,8 +8,9 @@
     "url": ""
   },
   "scripts": {
-    "start": "./node_modules/.bin/brunch watch --server",
-    "build": "./node_modules/.bin/brunch build --production"
+    "start": "brunch watch --server",
+    "build": "eslint app && brunch build --production",
+    "test": "echo test"
   },
   "dependencies": {
     "jquery": "~1.12.2",
@@ -22,6 +23,7 @@
     "brunch": "~2.5.0",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
+    "eslint": "^2.11.1",
     "javascript-brunch": "^2.0.0",
     "uglify-js-brunch": "^2.0.0",
     "underscore-brunch": "~1.4.0"

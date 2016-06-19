@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "brunch watch --server",
-    "prod": "brunch build --production",
+    "build": "eslint app && brunch build --production",
     "test": "brunch b --env testing"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "brunch": "~2.5.0",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
+    "eslint": "^2.11.1",
     "javascript-brunch": "^2.0.0",
     "karma-brunch": "~1.0.0",
     "mocha": "^2.5.1",
