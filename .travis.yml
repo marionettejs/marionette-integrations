@@ -3,8 +3,8 @@ node_js:
   - "5.3"
 env:
   - DIR=browserify
-  - DIR=browserify_gulp
-  - DIR=browserify_grunt
+  - DIR=browserify-gulp
+  - DIR=browserify-grunt
   - DIR=brunch
   - DIR=webpack
   - DIR=casperjs
