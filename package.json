@@ -1,0 +1,33 @@
+{
+  "name": "generator-marionette-integrations",
+  "version": "0.1.0",
+  "description": "marionette-integrations",
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "framework",
+    "mvc",
+    "backbone",
+    "marionette"
+  ],
+  "main": "app/index.js",
+  "scripts": {
+    "test": "ava app/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marionettejs/marionette-integrations.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marionettejs/marionette-integrations/issues"
+  },
+  "homepage": "https://github.com/marionettejs/marionette-integrations#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.23.4"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
+}
