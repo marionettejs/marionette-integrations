@@ -7,8 +7,8 @@ Example marionette apps using multiple dependency tools.
   * [Webpack](/webpack)
   * [Brunch](/brunch)
   * [Browserify](/browserify)
-  * [Browserify + Grunt](/browserify_grunt)
-  * [Browserify + Gulp](/browserify_gulp)
+  * [Browserify + Grunt](/browserify-grunt)
+  * [Browserify + Gulp](/browserify-gulp)
 
 ### MarionetteJS with test frameworks
  * [Karma + Mocha + Chai](/mocha)
