@@ -2,6 +2,6 @@ import './styles/application.css';
 import App from 'components/App';
 
 document.addEventListener('DOMContentLoaded', () => {
-  let app = new App();
+  const app = new App();
   app.start();
 });
