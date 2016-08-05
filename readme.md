@@ -17,7 +17,7 @@ Example marionette apps using multiple dependency tools.
  * [CasperJS](/casperjs)
 
 
-## Want to try examples fast?
+## Want to try examples fast (not released yet)?
 
  * npm install -g yo
  * npm install -g generator-marionette-integrations
