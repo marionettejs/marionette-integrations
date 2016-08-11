@@ -27,7 +27,7 @@ module.exports = {
     }
   },
   overrides: {
-    testing: {
+    test: {
       modules: {
         autoRequire: {
           'specs.js': ['specs/initialize']

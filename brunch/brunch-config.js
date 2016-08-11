@@ -8,7 +8,6 @@ module.exports = {
     },
     stylesheets: {joinTo: 'app.css'},
     templates: {
-      defaultExtension: 'jst',
       joinTo: {'app.js': /^app\/templates/}
     }
   },

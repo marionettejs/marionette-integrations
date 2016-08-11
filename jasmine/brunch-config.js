@@ -12,7 +12,6 @@ module.exports = {
     },
     stylesheets: {joinTo: 'app.css'},
     templates: {
-      defaultExtension: 'jst',
       joinTo: {'app.js': /^app\/templates/}
     }
   },
@@ -27,7 +26,7 @@ module.exports = {
     }
   },
   overrides: {
-    testing: {
+    test: {
       modules: {
         autoRequire: {
           'specs.js': ['specs/initialize']
