@@ -8,7 +8,7 @@ var watch = function() {
   browserSync.init({
     server: './public'
   });
-  gulp.watch('app/*', ['build']);
+  gulp.watch('app/**/*', ['build']);
   gulp.watch('public/*').on('change', browserSync.reload);
 };
 
