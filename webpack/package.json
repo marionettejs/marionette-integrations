@@ -28,7 +28,6 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "http-server": "^0.9.0",
     "style-loader": "^0.13.1",
-    "stylus-loader": "^2.0.0",
     "underscore-template-loader": "^0.7.2",
     "webpack": "^1.12.15"
   }
