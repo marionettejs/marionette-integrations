@@ -7,10 +7,8 @@
   const App = Mn.Application.extend({
     region: '#app',
 
-    initialize() {
-      this.on('start', () => {
-        this.showView(new View());
-      })
+    onStart() {
+      this.showView(new View());
     }
   });
 

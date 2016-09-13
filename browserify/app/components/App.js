@@ -4,9 +4,7 @@ import ItemView from './ItemView';
 export default Marionette.Application.extend({
   region: '#app',
 
-  initialize() {
-    this.on('start', () => {
-      this.showView(new ItemView());
-    })
+  onStart() {
+    this.showView(new ItemView());
   }
 });
