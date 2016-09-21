@@ -1,6 +1,6 @@
-# Browserify + Gulp + MarionetteJS + Babel/ES6
+# Browserify + Grunt + MarionetteJS + Babel/ES6
 
-This is a modern JS skeleton with MarionetteJS for [Browserify](http://browserify.org/) and [Gulp](http://gulpjs.com/).
+This is a modern JS skeleton with MarionetteJS for [Browserify](http://browserify.org/) and [Grunt](http://gruntjs.com/).
 
 ## Getting started
 
