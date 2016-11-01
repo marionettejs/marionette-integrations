@@ -10,6 +10,7 @@ var boilerplates = [
   'foo', 'bar'
 ];
 var expectedFiles = [
+  '.editorconfig',
   '.eslintrc',
   '.gitignore',
   'Makefile',

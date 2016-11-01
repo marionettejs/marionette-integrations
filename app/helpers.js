@@ -28,7 +28,7 @@ module.exports =  {
     var sourceRoot = this.sourceRoot();
     var source = this.getSourcePath(sourceRoot, option);
     var destination = this.destinationRoot(option);
-    
     this.fs.copy(source, destination, { globOptions: { dot: true } });
+    this.directory('./', destination);
   }
 };
