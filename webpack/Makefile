@@ -1,11 +1,9 @@
 MODULESDIR = ./node_modules/.bin
-build:
-	$(MODULESDIR)/webpack
+build: clean
+	$(MODULESDIR)/webpack -p
 
-server:
-	$(MODULESDIR)/http-server
-
-start: build server
+start:
+	$(MODULESDIR)/webpack-dev-server
 
 clean:
 	@rm -rf public
