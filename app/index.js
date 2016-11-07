@@ -1,6 +1,7 @@
 var generators = require('yeoman-generator');
 var Helpers = require('./helpers');
 var boilerplates = [
+  "webpack",
   "browserify",
   "browserify-gulp",
   "browserify-grunt",

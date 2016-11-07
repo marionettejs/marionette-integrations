@@ -4,8 +4,9 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
+const merge = require('webpack-merge');
 
-module.exports = {
+const webpackCommon = {
   entry: {
     app: ['./app/initialize']
   },
@@ -33,7 +34,7 @@ module.exports = {
   output: {
     filename: 'app.js',
     path: path.join(__dirname, './public'),
-    publicPath: '/public'
+    publicPath: '/public/'
   },
   plugins: [
     new ExtractTextPlugin('app.css'),
@@ -53,3 +54,20 @@ module.exports = {
     root: path.join(__dirname, './node_modules')
   }
 };
+
+switch (process.env.npm_lifecycle_event) {
+  case 'start':
+  case 'dev':
+    module.exports = merge(webpackCommon, {
+      devtool: '#inline-source-map',
+      devServer: {
+        inline: true
+      }
+    });
+    break;
+  default:
+    module.exports = merge(webpackCommon, {
+      devtool: 'source-map'
+    });
+    break;
+}
