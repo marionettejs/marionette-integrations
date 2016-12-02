@@ -9,7 +9,9 @@ var boilerplates = [
   "casperjs",
   "cypress",
   "jasmine",
-  "mocha"
+  "mocha",
+  "webpack",
+  "vanilla"
 ];
 
 var MnIntegrations = generators.Base.extend(Helpers);

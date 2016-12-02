@@ -15,7 +15,10 @@ Example marionette apps using multiple dependency tools.
  * [Karma + Jasmine](/jasmine)
  * [Cypress](/cypress)
  * [CasperJS](/casperjs)
+ 
 
+### Bonus
+  * [Vanilla example](/vanilla) (Without build tools)
 
 ## Want to try examples fast (not released yet)?
 
@@ -24,6 +27,7 @@ Example marionette apps using multiple dependency tools.
 
  ### Commands
 
+ * yo marionette-integrations:app --vanilla
  * yo marionette-integrations:app --browserify
  * yo marionette-integrations:app --browserify-gulp
  * yo marionette-integrations:app --browserify-grunt
