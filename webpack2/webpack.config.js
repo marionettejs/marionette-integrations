@@ -17,10 +17,7 @@ const webpackCommon = {
         exclude: /node_modules/,
         use: [
           {
-            loader: 'babel-loader',
-            options: {
-              presets: ['es2015']
-            }
+            loader: 'babel-loader?presets[]=es2015'
           }
         ]
       },
@@ -34,8 +31,8 @@ const webpackCommon = {
         test: /\.css$/,
         exclude: /node_modules/,
         use: ExtractTextPlugin.extract({
-          fallbackLoader: 'style-loader',
-          loader: 'css-loader'
+          fallback: 'style-loader',
+          use: 'css-loader'
         })
       }
     ]
