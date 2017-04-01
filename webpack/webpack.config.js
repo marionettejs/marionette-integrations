@@ -34,7 +34,7 @@ const webpackCommon = {
   output: {
     filename: 'app.js',
     path: path.join(__dirname, './public'),
-    publicPath: '/public/'
+    publicPath: '/'
   },
   plugins: [
     new ExtractTextPlugin('app.css'),
