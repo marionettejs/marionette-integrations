@@ -15,6 +15,7 @@ Example marionette apps using multiple dependency tools.
  * [Karma + Jasmine](/jasmine)
  * [Cypress](/cypress)
  * [CasperJS](/casperjs)
+ * [Webpack2 + Mocha](/webpack2-mocha)
  
 
 ### Bonus
