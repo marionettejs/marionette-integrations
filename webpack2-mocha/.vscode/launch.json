@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run mocha-webpack",
+      "type": "node",
+      "request": "launch",
+      "protocol": "auto",
+      "port": 5858,
+      "program": "${workspaceRoot}/node_modules/mocha-webpack/bin/mocha-webpack",
+      "stopOnEntry": false,
+      "sourceMaps": true,
+      "args": [],
+      "cwd": "${workspaceRoot}",
+      "preLaunchTask": null,
+      "runtimeExecutable": null,
+      "runtimeArgs": [
+        "--debug-brk"
+      ],
+      "env": { "NODE_ENV": "testing"},
+      "console": "internalConsole",
+      "outFiles": []
+    },
+    {
+      "name": "Attach Debugger",
+      "type": "node",
+      "request": "attach",
+      "protocol": "auto",
+      "port": 5858,
+      "address": "localhost",
+      "restart": true,
+      "sourceMaps": false,
+      "outFiles": [],
+      "localRoot": "${workspaceRoot}",
+      "remoteRoot": null
+    }
+  ]
+ }

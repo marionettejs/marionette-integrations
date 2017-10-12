@@ -1,0 +1,5 @@
+--colors
+--require mocha-webpack-setup.js
+--recursive
+--webpack-config webpack.config-test.js
+specs/**/*.js

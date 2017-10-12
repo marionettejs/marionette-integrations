@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, system, sans-serif;
+}
+
+#content {
+  width: 480px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  font-size: 5em;
+}
+
+a {
+  color: #006a86;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+a:hover {
+  color: #006a86;
+  border-bottom: 1px solid #006a86;
+}
