@@ -1,18 +1,38 @@
 'use strict';
 const webpack = require('webpack');
 var nodeExternals = require('webpack-node-externals');
+var isCoverage = process.env.NODE_ENV === 'coverage';
+
 const path = require('path');
 
 module.exports = {
   target: 'node', // webpack should compile node compatible code
   externals: [nodeExternals()], // in order to ignore all modules in node_modules folder
   module: {
-    rules: [{
-      test: /\.jst$/,
-      use: {
-        loader: 'underscore-template-loader'
+    rules: [].concat(
+      isCoverage ? {
+        test: /\.(js)/,
+        include: path.resolve('app'), // instrument only testing sources with Istanbul, after ts-loader runs
+        use: {
+          loader: 'istanbul-instrumenter-loader'
+        }
+      } : [],
+      {
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'babel-loader?presets[]=es2015'
+          }
+        ]
+      },
+      {
+        test: /\.jst$/,
+        use: {
+          loader: 'underscore-template-loader'
+        }
       }
-    }]
+    )
   },
   plugins: [
     new webpack.ProvidePlugin({
